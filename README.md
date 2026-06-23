@@ -1,4 +1,4 @@
-## IoT Heartrate Monitor using Azure Applications (with ESP8266 and HR Sensor)
+## IoT Heartrate Monitor using Azure Applications (with ESP8266/HR Sensor)
 
 For this project, I wanted to create an easy-to-use, efficient, and cheap solution to an expensive Hospital Quality HR Monitor. This device would be so unbelievably simple, even your grandma and grandpa could use it. However, the setup process is a bit more rigorous so make sure you have enough snacks. This tutorial will be split into a few different parts: #1. The hardware: connecting wires, plugging in cables, and debugging. #2. The software: setting the hardware up using the [Arduino IDE](http://https://www.arduino.cc/en/Main/Software/ "Arduino IDE") and programming the ESP8266 to connect to the Azure IoT Hub. Lastly, #3. Azure: connecting the Azure Applications to each other (for example: IoT Hub → Event Grid → Event Subscription → Logic App (basically an Azure Function) → Twilio API).
 
